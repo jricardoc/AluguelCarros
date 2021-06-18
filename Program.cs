@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; //biblioteca para usar a lista
 
 namespace Atividade_Fran
 {
     class Program
     {
-        static List<Carro> carros = new List<Carro>();
-        static List<Cliente> clientes = new List<Cliente>();
-        static List<Aluguel> alugueis = new List<Aluguel>();
+        static List<Carro> carros = new List<Carro>(); //lista de carros
+        static List<Cliente> clientes = new List<Cliente>(); //lista de clientes
+        static List<Aluguel> alugueis = new List<Aluguel>();//lista de alugueis
         static void Main(string[] args)
         {
             iniciarListaCarros();
@@ -15,7 +15,7 @@ namespace Atividade_Fran
 
             bool rodando = true;
 
-            while (rodando)
+            while (rodando) // operação para rodar o código em loop
             {
                 Console.WriteLine("Pressione 'c' se você for cliente ou 's' se você for administrador do sistema.\n");
 
@@ -97,7 +97,7 @@ namespace Atividade_Fran
             }
         }
 
-        static bool verificarCliente(string cpf)
+        static bool verificarCliente(string cpf) // método para verificar se o cliente ja está cadastrado
         {
             foreach (Cliente cliente in clientes)
             {
@@ -110,7 +110,7 @@ namespace Atividade_Fran
             return false;
         }
 
-        static bool verificarCarro(int index)
+        static bool verificarCarro(int index) // método para verificar se o carro está disponível
         {
             foreach (Cliente cliente in clientes)
             {
@@ -123,7 +123,7 @@ namespace Atividade_Fran
 
             return true;
         }
-        static void registrarAluguel(string nome, string cpf, int horas, int indexCarro)
+        static void registrarAluguel(string nome, string cpf, int horas, int indexCarro) // metódo para registrar o aluguel
         {
             if (!verificarCliente(cpf))
             {
@@ -150,7 +150,7 @@ namespace Atividade_Fran
 
         }
 
-        static void registrarDevolucao(string cpf)
+        static void registrarDevolucao(string cpf) // método para registrar a devolução
         {
             if (!verificarCliente(cpf))
             {
@@ -169,11 +169,11 @@ namespace Atividade_Fran
             }
             Console.WriteLine("Cliente não possue aluguel registrado!\n");
         }
-        static void cadastrarCarro(string marca, string modelo, int ano, string chassi, double preco)
+        static void cadastrarCarro(string marca, string modelo, int ano, string chassi, double preco) // método para cadastrar o carro
         {
             carros.Add(new Carro(marca, modelo, ano, chassi, preco, true));
         }
-        static void cadastrarCliente(string nome, string cpf, string endereco, string cnh, string telefone)
+        static void cadastrarCliente(string nome, string cpf, string endereco, string cnh, string telefone) // método para cadastrar o cliente
         {
             foreach (Cliente cliente in clientes)
             {
@@ -190,7 +190,7 @@ namespace Atividade_Fran
             clientes.Add(new Cliente(cpf, nome, endereco, cnh, telefone));
 
         }
-        static void iniciarListaCarros()
+        static void iniciarListaCarros() // método com os carros já criados
         {
             carros.Add(new Carro("Ford", "Focus", 2012, "000000000", 100, false));
             carros.Add(new Carro("Fiat", "Toro", 2015, "000000000", 150, true));
@@ -198,7 +198,7 @@ namespace Atividade_Fran
             carros.Add(new Carro("Audi", "TT", 2006, "000000000", 400, true));
             carros.Add(new Carro("Ferrari", "California", 2021, "000000000", 1000, true));
         }
-        static void iniciarClientes()
+        static void iniciarClientes() // método com os clientes já criados
         {
             clientes.Add(new Cliente("070.707.070-70", "Renata", "Rua boa vista, 28", "000000000", "71981406641"));
             clientes.Add(new Cliente("060.060.060-60", "Luis", "Rua boa vista, 28", "000000000", "71981406641"));
