@@ -1,0 +1,16 @@
+C:\Users\ricar\Desktop\Atividade Fran\bin\Debug\net5.0\Atividade Fran.exe
+C:\Users\ricar\Desktop\Atividade Fran\bin\Debug\net5.0\Atividade Fran.deps.json
+C:\Users\ricar\Desktop\Atividade Fran\bin\Debug\net5.0\Atividade Fran.runtimeconfig.json
+C:\Users\ricar\Desktop\Atividade Fran\bin\Debug\net5.0\Atividade Fran.runtimeconfig.dev.json
+C:\Users\ricar\Desktop\Atividade Fran\bin\Debug\net5.0\Atividade Fran.dll
+C:\Users\ricar\Desktop\Atividade Fran\bin\Debug\net5.0\ref\Atividade Fran.dll
+C:\Users\ricar\Desktop\Atividade Fran\bin\Debug\net5.0\Atividade Fran.pdb
+C:\Users\ricar\Desktop\Atividade Fran\obj\Debug\net5.0\Atividade Fran.csproj.AssemblyReference.cache
+C:\Users\ricar\Desktop\Atividade Fran\obj\Debug\net5.0\Atividade Fran.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\Desktop\Atividade Fran\obj\Debug\net5.0\Atividade Fran.AssemblyInfoInputs.cache
+C:\Users\ricar\Desktop\Atividade Fran\obj\Debug\net5.0\Atividade Fran.AssemblyInfo.cs
+C:\Users\ricar\Desktop\Atividade Fran\obj\Debug\net5.0\Atividade Fran.csproj.CoreCompileInputs.cache
+C:\Users\ricar\Desktop\Atividade Fran\obj\Debug\net5.0\Atividade Fran.dll
+C:\Users\ricar\Desktop\Atividade Fran\obj\Debug\net5.0\ref\Atividade Fran.dll
+C:\Users\ricar\Desktop\Atividade Fran\obj\Debug\net5.0\Atividade Fran.pdb
+C:\Users\ricar\Desktop\Atividade Fran\obj\Debug\net5.0\Atividade Fran.genruntimeconfig.cache
